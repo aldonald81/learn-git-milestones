@@ -80,8 +80,8 @@ Create a Github account and make your first commit
 ### Git Installation
 Install your development environment
 
-- [ ] Complete the [command line crash course](https://github.com/omundy/learn-computing/blob/main/topics-command-line.md#crash-course)
-- [ ] Install Git on your machine ([via](https://gist.github.com/derhuerst/1b15ff4652a867391f03))
+- [x] Complete the [command line crash course](https://github.com/omundy/learn-computing/blob/main/topics-command-line.md#crash-course)
+- [x] Install Git on your machine ([via](https://gist.github.com/derhuerst/1b15ff4652a867391f03))
 
 **Windows** Install [Git for Windows](https://gitforwindows.org/) (includes [Git BASH](https://www.atlassian.com/git/tutorials/git-bash), its own version of the bash shell)
 
@@ -92,18 +92,18 @@ Install your development environment
 
 ### Configure Git
 
-- [ ] On the command line, confirm Git is installed by typing `git` at the prompt and hitting enter
-- [ ] ✏️ This displays a help file with a list of possible commands. What does `log` do? **??**
-- [ ] Add your name and email (replace with your information and press return after each line)
+- [x] On the command line, confirm Git is installed by typing `git` at the prompt and hitting enter
+- [x] ✏️ This displays a help file with a list of possible commands. What does `log` do? **Log shows commit logs**
+- [x] Add your name and email (replace with your information and press return after each line)
 ```bash
 git config --global user.name "Jane Doe"
 git config --global user.email janedoe@example.com
 ```
-- [ ] Set the default branch to [main](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main)
+- [x] Set the default branch to [main](https://www.theserverside.com/feature/Why-GitHub-renamed-its-master-branch-to-main)
 ```bash
 git config --global init.defaultBranch main
 ```
-- [ ] Confirm your settings worked with either of these
+- [x] Confirm your settings worked with either of these
 ```bash
 cat ~/.gitconfig
 git config --list
